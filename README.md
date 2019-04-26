@@ -20,19 +20,18 @@ The final web app and services configuration is shown in this diagram:
 The following are required to complete this hands-on lab:
 * An active Microsoft Azure subscription
 * [Visual Stuio 2019 Community](https://visualstudio.microsoft.com/) or greater (Professional or Enterprise) with ASP.NET and web deployment, Azure development and Data storage and processing, .NET Core cross-platform development and .NET Core 2.2 development tools components installed.
+* Git
 
 ## Exercises
 This hands-on lab includes the following exercises:
 * [Exercise 1: Create the Azure Resources](exercise1.md)
-* Exercise 2: Setup local development
+* [Exercise 2: Setup lab content and local development](exercise2.md)
 * Exercise 3: Deploy to Azure Web Apps
 * Exercise 4: Enable Managed Identity
 * Exercise 5: Configure SQL DB
 * Exercise 6: Configure Key Vault
 * Exercise 7: Configure Storage
 
-
-## Exercise 2: Setup local development
 
 ## Exercise 3: Deploy to Azure Web Apps
 
