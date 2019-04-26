@@ -7,14 +7,6 @@ Some of the things you'll be doing:
 * Develop locally using Managed Identity
 * Deploy to Azure
 * Configure your Web App to use Managed Identity
-* Use VNet Integration with your Web App
-* Configure SQL DB to use Service Endpoints
-* Configure Key Vault to use Service Endpoints
-* Configure Storage to use Service Endpoints
-
-The final web app and services configuration is shown in this diagram:
-
-![Overview](images/overview.png)
 
 ## Prerequisites
 The following are required to complete this hands-on lab:
@@ -26,19 +18,5 @@ The following are required to complete this hands-on lab:
 This hands-on lab includes the following exercises:
 * [Exercise 1: Create the Azure Resources](exercise1.md)
 * [Exercise 2: Setup lab content and local development](exercise2.md)
-* Exercise 3: Deploy to Azure Web Apps
-* Exercise 4: Enable Managed Identity
-* Exercise 5: Configure SQL DB
-* Exercise 6: Configure Key Vault
-* Exercise 7: Configure Storage
+* [Exercise 3: Deploy to Azure Web Apps and Enable Managed Identity](exercise3.md)
 
-
-## Exercise 3: Deploy to Azure Web Apps
-
-## Exercise 4: Enable Managed Identity
-
-## Exercise 5: Configure SQL DB
-
-## Exercise 6: Configure Key Vault
-
-## Exercise 7: Configure Storage

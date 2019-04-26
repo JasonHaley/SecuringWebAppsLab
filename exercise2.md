@@ -39,6 +39,20 @@ This opens the **Create a Secret** view.
 > A note about the name:
 > The sample website uses a configuration provider that reads in the secrets and changes any "--" to ":" to fit with the syntax .NET Core already works with.
 
+Before leaving the Azure Key Vault, let's give that AAD group access to the secrets.
+
+4. Select **Access policies** in the menu and click **+ Add New**
+
+![Overview](images/img46.png)
+
+5. Select **Secrete Management** from the template options. Click on the **Select principal** button and search for the AAD group you created and select it. Click the **Select** button at the bottom of the blade. Then click **OK**.
+
+![Overview](images/img47.png)
+
+6. You should now see the group added, click the **Save** button.
+
+![Overview](images/img48.png)
+
 ### Add a Container and Test File to Storage
 The sample application looks for a blob in Azure Storage and reads the contents of the file and displays it on a web page in order to prove the site can interact with Storage. So let's add a file for the site to read.
 
