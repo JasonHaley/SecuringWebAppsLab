@@ -1,0 +1,22 @@
+﻿@model SqlDbViewModel
+@{
+    ViewData["Title"] = "SQL Db with Key Vault";
+}
+
+<h1>Accessing SQL Db with Managed Identity and Entity Framework</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Azure Groups</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var row in Model.Results)
+        {
+            <tr>
+                <td><a href="@row.MeetupUrl">@row.GroupName</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

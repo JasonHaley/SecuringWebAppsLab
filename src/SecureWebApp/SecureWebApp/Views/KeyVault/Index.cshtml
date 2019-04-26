@@ -1,0 +1,10 @@
+﻿@model KeyVaultViewModel
+@{
+    ViewData["Title"] = "Managed Identity with Key Vault";
+}
+
+<h1>Accessing Key Vault with Managed Identity using the Azure Key Vault configuration provider</h1>
+
+<p>Value from configuration: KeyVaultSecret = <strong>@Model.SecretValue</strong></p>
+
+<p>You an find the configuration provider on Nuget: <a href="https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AzureKeyVault/">Microsoft.Extensions.Configuration.AzureKeyVault</a></p>

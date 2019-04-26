@@ -2,7 +2,14 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h2>Welcome to the Secure Web Apps lab!</h2>
+
+
+<p>This is designed to be a simple app that shows how to use Managed Identity with the following:</p>
+<div class="container">
+    <ul>
+        <li style="height:40px">Key Vault <a class="btn btn-sm btn-success" asp-area="" asp-controller="KeyVault" asp-action="Index">Test It</a></li>
+        <li style="height:40px">SQL Database <a class="btn btn-sm btn-success" asp-area="" asp-controller="SqlDb" asp-action="Index">Test It</a></li>
+        <li style="height:40px">Storage <a class="btn btn-sm btn-success" asp-area="" asp-controller="Storage" asp-action="Index">Test It</a></li>
+    </ul>
 </div>
