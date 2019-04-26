@@ -45,7 +45,7 @@ Before leaving the Azure Key Vault, let's give that AAD group access to the secr
 
 ![Overview](images/img46.png)
 
-5. Select **Secrete Management** from the template options. Click on the **Select principal** button and search for the AAD group you created and select it. Click the **Select** button at the bottom of the blade. Then click **OK**.
+5. Select **Secret Management** from the template options. Click on the **Select principal** button and search for the AAD group you created and select it. Click the **Select** button at the bottom of the blade. Then click **OK**.
 
 ![Overview](images/img47.png)
 
@@ -78,10 +78,10 @@ Once it is uploaded it will show in the listing.
 
 ![Overview](images/img26.png)
 
-While we are in storage, we need configure access to reading the blob.
+While we are in storage, we need configure access for reading the blob.
 
 ## Configure Storage Access Control
-Since we will be using Azure Active Directory for interacting with Storage and not the shared keys, we need to add the role assignments.
+Since we will be using Azure Active Directory for interacting with Storage and not the shared keys, we need to add a role assignment.
 
 1. Go to the **Access Control** view and select **Add a role assignment**.
 

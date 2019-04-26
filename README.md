@@ -1,7 +1,7 @@
-# Securing Web Apps Hands-on Lab
+# Managed Identity with Web Apps Hands-on Lab
 
 ## Objective
-Welcome to the Securing Web Apps Hands-on Lab. In this lab, you'll go through tasks that will help you understand the different features available to secure your web application in Azure Web Apps.
+Welcome to the Managed Identity with Web Apps Hands-on Lab. In this lab, you'll go through tasks that will help you understand the different features available to secure your web application in Azure Web Apps.
 
 Some of the things you'll be doing:
 * Develop locally using Managed Identity
