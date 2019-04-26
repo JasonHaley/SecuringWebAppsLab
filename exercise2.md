@@ -149,6 +149,6 @@ Notice there are no shared keys, username and passwords! This is a realy motivat
 
 3. Once you have replaced the settings with your values, start the debugger (F5).
 
-![Overview](images/img35.png)
+![Overview](images/img37.png)
 
 The test application should now run locally and you should be able to navigate through the buttons and see the different Azure resources being access without any shared secrets or passwords being sent to them!

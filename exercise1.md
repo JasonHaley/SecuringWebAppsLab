@@ -70,20 +70,6 @@ This shows you the summary of what will be created.
 
 3. Click **Create** to have the storage account created.
 
-### Create a VNet
-Later on, we'll need this VNet to lock down the database and other resources.
-1. In the Azure Portal, click on the Create a resource button in the upper left corner of the page and select **Networking** and then **Virtual Network**.
-
-This will open the **Create virtual network** blade.
-
-2. Give your network a **name**, **address space**, select the **subscription** and the **same resource group you have been using** and the **location**.
-
-![Overview](images/img12.png)
-
-3. Click **Create** to have the VNet created.
-
-We will configure a subnet and service endpoints later on this virtual network.
-
 ### Create an AAD Group
 In order to work with AAD users and Managed Identity with resources, it is easier to create a group to add both users and any Managed Identity service principles we need to. So now, let's create a group and put your user in it.
 1. In the Azure Portal, find the search box in the middle of the header and type **Azure Active Directory** and choose it in the search result.
