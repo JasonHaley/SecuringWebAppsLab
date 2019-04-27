@@ -11,7 +11,7 @@ Some of the things you'll be doing:
 ## Prerequisites
 The following are required to complete this hands-on lab:
 * An active Microsoft Azure subscription
-* [Visual Stuio 2019 Community](https://visualstudio.microsoft.com/) or greater (Professional or Enterprise) with ASP.NET and web deployment, Azure development and Data storage and processing, .NET Core cross-platform development and .NET Core 2.2 development tools components installed.
+* [Visual Studio 2019 Community](https://visualstudio.microsoft.com/) or greater (Professional or Enterprise) with ASP.NET and web deployment, Azure development and Data storage and processing, .NET Core cross-platform development and .NET Core 2.2 development tools components installed.
 * Git
 
 ## Exercises
